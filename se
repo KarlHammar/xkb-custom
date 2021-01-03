@@ -77,10 +77,11 @@ xkb_symbols "karl" {
         symbols[Group1]= [k,K, parenleft, NoSymbol]
     };
 
-    key <AC09> {
-        type= "FOUR_LEVEL_SEMIALPHABETIC",
-        symbols[Group1]= [l,L, parenright, NoSymbol]
-    };
+    // incompatible with polish
+    //key <AC09> {
+    //    type= "FOUR_LEVEL_SEMIALPHABETIC",
+    //    symbols[Group1]= [l,L, parenright, NoSymbol]
+    //};
 
     key <AC10> {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
