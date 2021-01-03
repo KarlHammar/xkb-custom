@@ -107,6 +107,22 @@ xkb_symbols "karl" {
         type= "FOUR_LEVEL",
         symbols[Group1]= [minus,underscore, slash, NoSymbol]
     };
+
+
+
+
+    // Polish letters
+    // ł is already in latin
+    key <AD03>  { [         e,          E,      eogonek,      Eogonek ] };
+    key <AD09>  { [         o,          O,       oacute,       Oacute ] };
+    key <AC01>  { [         a,          A,      aogonek,      Aogonek ] };
+    key <AC02>  { [         s,          S,       sacute,       Sacute ] };
+    key <AB01>  { [         z,          Z,    zabovedot,    Zabovedot ] };
+    key <AB02>  { [         x,          X,       zacute,       Zacute ] };
+    key <AB03>  { [         c,          C,       cacute,       Cacute ] };
+    key <AB06>  { [         n,          N,       nacute,       Nacute ] };
+
+
 };
 
 partial alphanumeric_keys
